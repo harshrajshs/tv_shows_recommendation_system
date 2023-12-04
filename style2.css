@@ -94,7 +94,18 @@ h1 {
     overflow-x: auto; /* Allow horizontal scrolling */
     scrollbar-width:auto; /* Specify the width of the scrollbar */
     scrollbar-color: #333 #222; /* Specify the color of the scrollbar */
-    max-width: 100%; 
+    /* max-width: 100%;  */
+    max-width: calc(100% - 40px); /* Adjusted for left and right margins */
+    margin: 10px 20px; /* Adjusted for top and bottom margins */
+}
+
+
+.scrollable-content{
+    display: flex;
+    position: absolute;
+    overflow-x: scroll;
+    transition: transform 0.3s ease;
+    margin-right: 20px;;
 }
 
 #container {
