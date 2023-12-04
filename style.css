@@ -121,28 +121,9 @@ nav ul li a:hover {
     .modal-content {
         width: 80%;
     }
-  
-    .header-content {
-        width: 100%;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .auth-buttons button {
-        margin: 10px 0;
-    }
-
-    .search-bar input {
-        width: 100%;
-    }
-  
-    .movie-card {
-        width: 100%;
-    }
 }
+
+
 
 .container {
     display: flex;
@@ -206,12 +187,14 @@ nav ul li a:hover {
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
-.dropdown {
+
+  
+  .dropdown {
     position: relative;
     display: inline-block;
-}
-
-.dropdown-content {
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: black;
@@ -219,15 +202,15 @@ nav ul li a:hover {
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
-
-.dropdown-content a {
+  }
+  
+  .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-
-.dropdown a:hover {background-color: #333;}
-
-.show {display: block;}
+  }
+  
+  .dropdown a:hover {background-color: #333;}
+  
+  .show {display: block;}
