@@ -162,6 +162,7 @@ nav ul li a:hover {
 
 .movie-card:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .movie-poster {
