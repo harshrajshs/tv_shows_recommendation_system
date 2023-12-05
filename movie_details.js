@@ -74,6 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                             // Append the movie element to the container
                             containerElement.appendChild(movieElement);
+                            movieElement.addEventListener("click", function () {
+                                openMovieDetailsPage(row);
+                            });
                         });
                     })
                     .catch(error => {
@@ -87,3 +90,10 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error('Error fetching data:', error);
         });
 });
+
+function openMovieDetailsPage(movie) {
+    // Construct the URL for the movie details page, passing both the movie name and poster path as parameters
+    const detailsPageUrl = `movie_details.html?name=${encodeURIComponent(movie.name)}&posterPath=${encodeURIComponent(movie.poster_path)}&genre=${encodeURIComponent(movie.genres)}&detail=${encodeURIComponent(movie.overview)}&id=${encodeURIComponent(movie.id)}&link=${encodeURIComponent(movie.trailer)}`;
+    // Open the details page in a new tab or window
+    window.location.href = detailsPageUrl;
+}
