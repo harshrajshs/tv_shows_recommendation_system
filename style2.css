@@ -3,7 +3,6 @@ body {
     font-family: 'Arial', sans-serif;
     background: url('pp.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #fff;
     /* Default text color */
     line-height: 1.6;
     display: flex;
@@ -41,7 +40,7 @@ body {
 #details {
     color: #fff;
     /* Light text color */
-    background-color: rgba(119, 196, 116, 0.582);
+    background-color: rgba(0, 238, 255, 0.9);
     /* Dark background color */
     padding: 20px;
     flex-grow: 1;
@@ -50,7 +49,7 @@ body {
 h1#movieName {
     font-size: 36px;
     /* Adjust the font size as needed */
-    color: #ffcc00;
+    color: #383428;
     /* A contrasting color for emphasis */
     margin-bottom: 15px;
     /* Add some space below the movie name */
@@ -71,7 +70,7 @@ h1 {
     margin-right: 5px;
     /* Add some space between labels and text */
     font-size: 16px;
-    color: #fff;
+    color: blue;
     /* A contrasting color for emphasis */
     letter-spacing: 1px;
     /* Add a bit of letter spacing */
@@ -83,9 +82,9 @@ h1 {
     /* Set to inline to appear on the same line */
     margin-top: 10px;
     font-size: 18px;
-    color: #ffcc00;
+    color: black;
     /* Light text color */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
     /* Add a subtle text shadow for depth */
 }
 
