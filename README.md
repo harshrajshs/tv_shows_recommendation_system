@@ -78,11 +78,9 @@ Data was scraped from [TMDb](https://www.themoviedb.org/tv) using Python's Beaut
 - **Beautiful Soup & Requests**: For web scraping.
 - **Pandas**: For data handling and CSV management.
 - **Scikit-Learn**: For content-based filtering.
-- **Surprise**: For collaborative filtering with ALS.
 - **Firebase**: For user authentication and data storage.
 - **HTML/CSS/JavaScript**: For front-end development.
-- **Flask**: As the web framework.
-- **Bootstrap**: For responsive design.
+- **Spark**: For big data processing.
 
 ## Contribution
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
