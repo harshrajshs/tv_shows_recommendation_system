@@ -49,16 +49,21 @@ Data was scraped from [TMDb](https://www.themoviedb.org/tv) using Python's Beaut
 
 ## Website Structure
 - **Homepage**: A welcoming interface showcasing featured TV shows and popular genres.
+- 
   ![Homepage Screenshot](homepage.png)
 
 - **Search**: A search icon allows users to quickly find their favorite shows.
+- 
   ![Search Feature Screenshot](search.png)
 
 - **Genre Selection**: Dropdown menu for exploring shows by genre.
+- 
   ![Genre Selection Screenshot](genre1.png)
+  
   ![Genre Selection Screenshot](genre2.png)
 
 - **Show Details**: In-depth information about the selected show, including trailer and recommendations.
+- 
   ![Show Details Screenshot](recommendation.png)
 
 ## Installation
