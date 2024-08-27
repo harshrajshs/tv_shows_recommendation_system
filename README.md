@@ -1,6 +1,6 @@
 # VistaVibe - A TV Shows Recommender System
 
-![VistaVibe Banner](path/to/your/banner/image.png)
+![VistaVibe Banner](homepage.png)
 
 ## Overview
 **VistaVibe** is a comprehensive TV show recommender system that leverages both content-based and collaborative filtering techniques to provide personalized show recommendations. The project scrapes data from [The Movie Database (TMDb)](https://www.themoviedb.org/tv) and utilizes this information to enhance user experience.
