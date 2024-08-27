@@ -67,3 +67,16 @@ Data was scraped from [TMDb](https://www.themoviedb.org/tv) using Python's Beaut
 2. Install the required Python packages:
 3. Run the website:
    simply run index.html
+## Technologies Used
+- **Python**: For data scraping, processing, and backend logic.
+- **Beautiful Soup & Requests**: For web scraping.
+- **Pandas**: For data handling and CSV management.
+- **Scikit-Learn**: For content-based filtering.
+- **Surprise**: For collaborative filtering with ALS.
+- **Firebase**: For user authentication and data storage.
+- **HTML/CSS/JavaScript**: For front-end development.
+- **Flask**: As the web framework.
+- **Bootstrap**: For responsive design.
+
+## Contribution
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
