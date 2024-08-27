@@ -63,7 +63,7 @@ Data was scraped from [TMDb](https://www.themoviedb.org/tv) using Python's Beaut
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vistavibe.git
+   git clone https://github.com/harshrajshs/tv_shows_recommendation_system.git
 2. Install the required Python packages:
 3. Run the website:
    simply run index.html
